@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "[API] Test for the Festivals API",
+    "children" : [ {
+      "name" : "JSON response schema should be valid",
+      "uid" : "9e66ff49b45e02fc",
+      "parentUid" : "f51a5bcc4612484768c20cde4b3baec3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645006059943,
+        "stop" : 1645006061077,
+        "duration" : 1134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Response status should be 200 for successful get request on Festivals API",
+      "uid" : "b27e488b893f1434",
+      "parentUid" : "f51a5bcc4612484768c20cde4b3baec3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645006061128,
+        "stop" : 1645006061834,
+        "duration" : 706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Response should have at least 1 Festival in the API get request",
+      "uid" : "f324a6d0a2b3bb",
+      "parentUid" : "f51a5bcc4612484768c20cde4b3baec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645006061849,
+        "stop" : 1645006062214,
+        "duration" : 365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f51a5bcc4612484768c20cde4b3baec3"
+  } ]
+}

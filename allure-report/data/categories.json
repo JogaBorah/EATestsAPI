@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected false to be true",
+      "children" : [ {
+        "name" : "JSON response schema should be valid",
+        "uid" : "9e66ff49b45e02fc",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645006059943,
+          "stop" : 1645006061077,
+          "duration" : 1134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81d949b8b4ac1baf44f7f368cbfa0d33"
+    }, {
+      "name" : "expected 429 to equal 200",
+      "children" : [ {
+        "name" : "Response status should be 200 for successful get request on Festivals API",
+        "uid" : "b27e488b893f1434",
+        "parentUid" : "d7cdb7d31fb39866d7a25ef0393b051d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645006061128,
+          "stop" : 1645006061834,
+          "duration" : 706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7cdb7d31fb39866d7a25ef0393b051d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

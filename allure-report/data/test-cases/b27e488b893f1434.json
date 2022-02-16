@@ -1,0 +1,288 @@
+{
+  "uid" : "b27e488b893f1434",
+  "name" : "Response status should be 200 for successful get request on Festivals API",
+  "fullName" : "Response status should be 200 for successful get request on Festivals API",
+  "historyId" : "ea604a44ddc28f09d8dff9d4e325a14f",
+  "time" : {
+    "start" : 1645006061128,
+    "stop" : 1645006061834,
+    "duration" : 706
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 429 to equal 200",
+  "statusTrace" : "AssertionError: expected 429 to equal 200\n    at Context.eval (https://eacp.energyaustralia.com.au/__cypress/tests?p=cypress\\integration\\apiTests\\schemaValidation_test.spec.js:161:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "clearCookies (\"{ domain: null }\")",
+      "time" : {
+        "start" : 1645006059926,
+        "stop" : 1645006059936,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "clearLocalStorage {domain: null, log: true}",
+      "time" : {
+        "start" : 1645006059936,
+        "stop" : 1645006059940,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 429 to equal 200",
+    "statusTrace" : "AssertionError: expected 429 to equal 200\n    at Context.eval (https://eacp.energyaustralia.com.au/__cypress/tests?p=cypress\\integration\\apiTests\\schemaValidation_test.spec.js:161:32)",
+    "steps" : [ {
+      "name" : "getFestivalsDetails",
+      "time" : {
+        "start" : 1645006061196,
+        "stop" : 1645006061632,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "api /",
+        "time" : {
+          "start" : 1645006061197,
+          "stop" : 1645006061359,
+          "duration" : 162
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wrap Object{7}",
+          "time" : {
+            "start" : 1645006061353,
+            "stop" : 1645006061355,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "response /",
+          "time" : {
+            "start" : 1645006061359,
+            "stop" : 1645006061359,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **200** to equal **200**",
+        "time" : {
+          "start" : 1645006061361,
+          "stop" : 1645006061361,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "api api/v1/festivals",
+        "time" : {
+          "start" : 1645006061362,
+          "stop" : 1645006061631,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wrap Object{7}",
+          "time" : {
+            "start" : 1645006061624,
+            "stop" : 1645006061627,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "response api/v1/festivals",
+          "time" : {
+            "start" : 1645006061631,
+            "stop" : 1645006061631,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **429** to equal **200**",
+      "time" : {
+        "start" : 1645006061833,
+        "stop" : 1645006061833,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "429"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d75b530b63e7f174",
+      "name" : "apiTests/schemaValidation_test.spec.js:2022-02-16T10:07:41.664Z",
+      "source" : "d75b530b63e7f174.png",
+      "type" : "image/png",
+      "size" : 112454
+    }, {
+      "uid" : "f07d74258ef87fe6",
+      "name" : "video recording",
+      "source" : "f07d74258ef87fe6.mp4",
+      "type" : "video/mp4",
+      "size" : 963207
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[API] Test for the Festivals API"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d7022d4147be9dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645003307737,
+        "stop" : 1645003308340,
+        "duration" : 603
+      }
+    }, {
+      "uid" : "954c899d6bea35e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645003213842,
+        "stop" : 1645003214347,
+        "duration" : 505
+      }
+    }, {
+      "uid" : "24a87c3ae0060eff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645001513976,
+        "stop" : 1645001514446,
+        "duration" : 470
+      }
+    }, {
+      "uid" : "ee88109095ab7c47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644974147763,
+        "stop" : 1644974148319,
+        "duration" : 556
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b27e488b893f1434.json",
+  "parameterValues" : [ ]
+}

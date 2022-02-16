@@ -1,0 +1,262 @@
+{
+  "uid" : "afcc3de66ee46897",
+  "name" : "JSON response schema should be valid",
+  "fullName" : "JSON response schema should be valid",
+  "historyId" : "61618b818da11f9a598048ab333b197e",
+  "time" : {
+    "start" : 1645003306849,
+    "stop" : 1645003307690,
+    "duration" : 841
+  },
+  "status" : "failed",
+  "statusMessage" : "expected false to be true",
+  "statusTrace" : "AssertionError: expected false to be true\n    at Context.eval (https://eacp.energyaustralia.com.au/__cypress/tests?p=cypress\\integration\\apiTests\\schemaValidation_test.spec.js:155:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "clearCookies (\"{ domain: null }\")",
+      "time" : {
+        "start" : 1645003306834,
+        "stop" : 1645003306841,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "clearLocalStorage {domain: null, log: true}",
+      "time" : {
+        "start" : 1645003306841,
+        "stop" : 1645003306846,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected false to be true",
+    "statusTrace" : "AssertionError: expected false to be true\n    at Context.eval (https://eacp.energyaustralia.com.au/__cypress/tests?p=cypress\\integration\\apiTests\\schemaValidation_test.spec.js:155:32)",
+    "steps" : [ {
+      "name" : "getFestivalsDetails",
+      "time" : {
+        "start" : 1645003306854,
+        "stop" : 1645003307397,
+        "duration" : 543
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "api /",
+        "time" : {
+          "start" : 1645003306855,
+          "stop" : 1645003307205,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wrap Object{7}",
+          "time" : {
+            "start" : 1645003307194,
+            "stop" : 1645003307196,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "response /",
+          "time" : {
+            "start" : 1645003307205,
+            "stop" : 1645003307205,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **200** to equal **200**",
+        "time" : {
+          "start" : 1645003307209,
+          "stop" : 1645003307209,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "api api/v1/festivals",
+        "time" : {
+          "start" : 1645003307209,
+          "stop" : 1645003307397,
+          "duration" : 188
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "wrap Object{7}",
+          "time" : {
+            "start" : 1645003307390,
+            "stop" : 1645003307391,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "response api/v1/festivals",
+          "time" : {
+            "start" : 1645003307397,
+            "stop" : 1645003307397,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "fixture (\"eaFestivalsSchema\")",
+      "time" : {
+        "start" : 1645003307397,
+        "stop" : 1645003307421,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **false** to be true",
+      "time" : {
+        "start" : 1645003307689,
+        "stop" : 1645003307689,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "true"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3cb6e0de6b162777",
+      "name" : "apiTests/schemaValidation_test.spec.js:2022-02-16T09:21:47.473Z",
+      "source" : "3cb6e0de6b162777.png",
+      "type" : "image/png",
+      "size" : 80038
+    }, {
+      "uid" : "87b63f0b66cc9ade",
+      "name" : "video recording",
+      "source" : "87b63f0b66cc9ade.mp4",
+      "type" : "video/mp4",
+      "size" : 799224
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[API] Test for the Festivals API"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afcc3de66ee46897.json",
+  "parameterValues" : [ ]
+}
